@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="chart"></div>
+      Tab out from input updates axis scales.
+      <div class="modify-stuff">
+        <div class="alter-axis-scales">
+          <label>
+            <span>Axis 1 min:</span>
+            <input type="number" id="axis1-min" />
+          </label>
+          <label>
+            <span>Axis 1 max:</span>
+            <input type="number" id="axis1-max" />
+          </label>
+        </div>
+        <div class="alter-axis-scales">
+          <label>
+            <span>Axis 2 min:</span>
+            <input type="number" id="axis2-min" />
+          </label>
+          <label>
+            <span>Axis 2 max:</span>
+            <input type="number" id="axis2-max" />
+          </label>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

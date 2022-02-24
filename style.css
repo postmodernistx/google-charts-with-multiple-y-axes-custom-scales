@@ -1,0 +1,34 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#chart {
+  margin: 20px auto;
+  width: 90vw;
+  height: 80vh;
+  outline: 1px solid coral;
+}
+
+.modify-stuff {
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.alter-axis-scales label {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.alter-axis-scales label span {
+  min-width: 100px;
+}
